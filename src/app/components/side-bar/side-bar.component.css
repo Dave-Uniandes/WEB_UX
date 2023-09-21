@@ -1,0 +1,13 @@
+.mb-auto {
+    margin-bottom: auto !important;
+}
+
+.flex-column {
+    flex-direction: column !important;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
