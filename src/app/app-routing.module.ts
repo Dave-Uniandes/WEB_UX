@@ -7,9 +7,6 @@ import { AlarmConfigurationPageComponent } from '../app/pages/alarm-configuratio
 import { UserPasswordPageComponent } from '../app/pages/user-password-page/user-password-page.component'
 
 const routes: Routes = [
-    { path: '', redirectTo: '/login', pathMatch: 'full' },
-    { path: '404', component: LoginPageComponent},
-    { path: '**', redirectTo: '/login'},
     { path: 'login', component: LoginPageComponent },
     { path: 'login-form', component: UserPasswordPageComponent },
     { path: 'alarms-list', component: AlarmsListPageComponent },
