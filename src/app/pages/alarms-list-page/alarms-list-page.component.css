@@ -1,0 +1,78 @@
+.header-line{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(98, 0, 238, 0.5);
+}
+
+.btn-salir{
+    height: 50px;
+    background-color: #6200EE;
+    color: white;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    -webkit-box-shadow: 10px 10px 35px 0px rgba(191,191,191,0.7);
+    -moz-box-shadow: 10px 10px 35px 0px rgba(191,191,191,0.7);
+    box-shadow: 10px 10px 35px 0px rgba(191,191,191,0.7);
+}
+
+li{
+    color: #6200EE;
+    padding: 8px;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+li:active{ 
+    background-color: rgba(98, 0, 238, 0.12);
+}
+
+.icon{
+    width: 25px;
+    height: 20px;
+    background-color: white;
+    border: 2px solid #6200EE;
+    margin-right: 15px;
+}
+
+.clock{
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    background-image: url("../../../assets/clock.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-t{
+    margin: 2px;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat !important;
+}
+
+.edit{
+    background-image: url("../../../assets/edit.png");
+    background-size: contain;
+    background-position: center;
+}
+
+.delete{
+    background-image: url("../../../assets/delete.png");
+    background-size: contain;
+    background-position: center;
+}
+
+.icon-t:hover{
+    cursor: pointer;
+}
+
+.icon-t:active{
+    background-size: 90%;
+    background-color: rgba(150, 150, 150, .3);
+}

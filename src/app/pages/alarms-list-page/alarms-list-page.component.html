@@ -1,1 +1,63 @@
-<p>alarms-list-page works!</p>
+<div class="header-line"></div>
+<h1 style="text-align: center; margin-top: 30px; margin-bottom: 20px;">Alarmas.com</h1>
+<div class="d-flex flex-row">
+    <div class=" col-sm-2 col-md-2 col-lg-4">
+        <ul style="list-style: none;">
+            <div class="clock"></div>
+            <li [routerLink]="['/alarms-config']"><div class="icon" style="float:left"></div> Crea tu alarma</li>
+            <li><div class="icon" style="float:left"></div>Cambiar contraseña</li>
+            <hr>
+        </ul>
+        <button [routerLink]="['/login']" style="bottom: 0; position:absolute" class="col-sm-2 col-md-2 col-lg-4 btn btn-salir">Salir</button>
+    </div>
+    <div class=" col-sm-10 col-md-10 col-lg-8" style="padding: 0 40px">
+        <table class="table">
+            <thead>
+              <tr>
+                
+                <th scope="col">Nombre</th>
+                <th scope="col">Acciones</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Alarma 1</td>
+                <td>
+                    <div class="d-flex">
+                        <div class="icon-t edit"></div>
+                        <div class="icon-t delete"></div>
+                    </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Alarma 2</td>
+                <td>
+                    <div class="d-flex">
+                        <div class="icon-t edit"></div>
+                        <div class="icon-t delete"></div>
+                    </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Alarma 3</td>
+                <td>
+                    <div class="d-flex">
+                        <div class="icon-t edit"></div>
+                        <div class="icon-t delete"></div>
+                    </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Alarma 4</td>
+                <td>
+                    <div class="d-flex">
+                        <div class="icon-t edit"></div>
+                        <div class="icon-t delete"></div>
+                    </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+    </div>
+</div>
